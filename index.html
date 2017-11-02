@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<script src="//www.socialintents.com/api/socialintents.1.1.js#2c9fa5635e778df2015e7d92c2720398" async="async"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 360px)" href="mobile.css">
+	<link rel="stylesheet" href="assets/style.css">
+	<link rel="shortcut icon" href="favicon.ico">
+    <title>Fantasy Network</title>
+    <meta charset="UTF-8">
+</head>
+<div class="fade-in">
+<header>
+<br>
+<br>
+
+	<h1>Fantasy Network</h1>
+    <li><a class="nav" href="index.html">Home</a>    <a class="nav" href="servers.html">Servers</a>    <a class="nav" href="team.html">Our Team</a>    <a class="nav" href="articles.html">Articles</a>    <a class="nav" href="contact.html">Contact Us</a></li>
+	</header>
+<body class=fadeIn>
+	<br>
+	<br>
+	<div id="article">
+	<h2>Welcome</h2>
+	<h3>About Us</h3>
+	<p>Fantasy network is a Multiplayer server network for all ages, it is friendly and always online!<br>Our amazing staff team contribute to the security of our network and they<br>Work everyday to make the Fantasy servers the best ones out there!<br>Join our fantastic servers and be ready to have fun as soon as you enter!</p>
+	<br>
+	<div class="mediaicons"><a href="https://www.instagram.com/fantasyislandmc/" title="Instagram"><img class="icons" src="pictures/Instagram.png" alt="Instagram"/></a><a href="https://twitter.com/fantasyislandmc" title="Twitter"><img class="icons" src="pictures/Twitter.png" alt="Twitter"/></a><a href="https://www.youtube.com/channel/UCGOYTtAxxiKZVfA2u4cVmfg" title="Youtube"><img class="icons" src="pictures/Youtube.png" alt="Youtube"/></a><a href="mailto:enrico3815@hotmail.fr" title="Email"><img class="icons" src="pictures/Email.png" alt="Email"/></a></div>
+	<br>
+	<img class="logo" src="pictures/Fantasy_Logo.png" alt="FantasyLogo"/>
+	</div>
+	
+	
+	<!--FEATURED MENU DONT TOUCH UNDER-->
+	<div id="news">
+		<h3 id="newsh3">Featured</h3>
+		<hr style="color: #ac00e6;">
+		<p id="newsp">New Articles</p>
+		
+		<div class="slideshow" style="position: relative;">
+			<a class="slidelink" href="bypass-license-mcpe-1.2.html">
+				<img class="slidepic" src="pictures/Article.png">
+				<div class="atext">
+					Bypass Minecraft<br>1 . 2 License
+				</div>
+			</a>
+		</div>
+		
+		<div class="slideshow2" style="position: relative;">	
+			<a class="slidelink" href="better-together-update.html">
+				<img class="slidepic" src="pictures/Article.png">
+				<div class="atext">
+					Better Together Update
+				</div>
+			</a>
+		</div>
+		
+		<div class="slideshow3" style="position: relative;">
+			<a class="slidelink" href="under-the-island.html">
+				<img class="slidepic" src="pictures/Article.png">
+				<div class="atext">
+					Under The Island<br>Short Story
+				</div>
+			</a>
+		</div>
+		
+		<div class="buttons">
+		<button class="slideleft" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="slideright" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+		<hr class="nextbut">
+		
+		<p id="newsp">Vote Website <b>&#58;</b></p><a href="http://bit.do/fantasyisland" class="links"><p class="little">bit <b>&#46;</b> do/fantasyisland</p></a>
+		<br>
+		<br>
+		<hr class="nextbut">
+		<p id="newsp">Donation Website <b>&#58;</b></p><a href="http://bit.do/fantasybuy" class="links"><p class="little">bit <b>&#46;</b> do/fantasybuy</p></a>
+		<br>
+		<br>
+		<hr class="nextbut">
+		<p id="newsp">Server Ip <b>&#58;</b></p><p class="little">fantasyisland <b>&#46;</b> zapto <b>&#46;</b> org</p>
+		<br>
+		<br>
+		<hr class="nextbut">
+		<p id="newsp">Server Port <b>&#58;</b></p><p class="little">26443</p>
+		<br>
+		<br>
+		<hr class="nextbut">
+		<img class="newslogo" src="pictures/Fantasy_Logo.png" alt="FantasyLogo"/>
+	</div>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("slidepic");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<!--END OF FEATURED MENU-->
+</body>
+</div>
+</html>
